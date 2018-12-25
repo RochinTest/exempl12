@@ -4,10 +4,10 @@ public class Main {
     private final static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int m = 0, n = 0,p=0;
+        int m = 0, n = 2345,p=0;
         m1:
         {
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i<n; i++) {
                 System.out.println("Введите пароль вида ****");
                 if (sc.hasNextInt())
                     m = sc.nextInt();
